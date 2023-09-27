@@ -1,15 +1,1 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project is meant to be used with the Snowflake sample data Using the `TPCDS_SF10TCL` schema within Snowflake’s `SNOWFLAKE_SAMPLE_DATA` database. [More info here](https://docs.snowflake.com/en/user-guide/sample-data-tpcds).
