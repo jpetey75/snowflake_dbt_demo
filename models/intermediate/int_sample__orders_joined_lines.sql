@@ -6,9 +6,9 @@ select
     count(1) as unique_items,
     sum(line_quantity) as total_quantity
 
-from {{ ref('stg_tpch_sf1__orders') }} as o 
+from {{ ref('stg_sample__orders') }} as o 
 
-    inner join {{ ref('stg_tpch_sf1__lineitem') }} as l 
+    inner join {{ ref('stg_sample__lineitem') }} as l 
         on l.order_key = o.order_key 
 
 group by o.order_key
